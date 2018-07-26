@@ -17,7 +17,7 @@ def add_a_key_value_pair
   new_place = :Atlanta
   new_year = "1996"
   summer_olympics[new_place] = new_year
-  puts summer_olympics
+  summer_olympics
   return summer_olympics
 
   
