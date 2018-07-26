@@ -17,10 +17,10 @@ def add_a_key_value_pair
   new_place = :Atlanta
   new_year = "1996"
   summer_olympics[new_place] = new_year
+  
   summer_olympics
   return summer_olympics
 
-  
 end
 
 add_a_key_value_pair
@@ -28,6 +28,13 @@ add_a_key_value_pair
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
+  
+  summer_olympics = add_a_key_value_pair
+  
+  summer_olympics 
+  summer_olympics.each do |place_year|
+    puts "The #{"
+  
 end
 
 def iterate_through_keys
