@@ -30,8 +30,7 @@ def iterate_through_hash
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
   
   summer_olympics = add_a_key_value_pair
-  
-  summer_olympics 
+
   summer_olympics.each_key do |place_year|
     puts "The #{"
   
