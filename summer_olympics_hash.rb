@@ -32,7 +32,7 @@ def iterate_through_hash
   summer_olympics = add_a_key_value_pair
   
   summer_olympics 
-  summer_olympics.eachkey do |place_year|
+  summer_olympics.each_key do |place_year|
     puts "The #{"
   
 end
